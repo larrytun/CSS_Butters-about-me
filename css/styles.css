@@ -1,0 +1,63 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+p {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+h2 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 30px;
+}
+
+.header{
+  padding: 30px;
+  background-color: #0A9DA5;
+}
+
+.butters-tile {
+  display: block;
+  width: 1200px;
+
+}
+
+.container {
+  width: 1200px;
+  height: 1200px;
+  background-color: #edfdff;
+
+}
+
+.nav-bar {
+  float: right;
+  margin-top: -15px;
+}
+
+.nav-bar img {
+  /*-webkit-filter: drop-shadow(0px 0px 2px white);
+  filter: drop-shadow(0px 0px 2px white);*/
+  margin-left: 5px;
+}
+
+.my-song {
+  width: 600px;
+  padding-left: 30px;
+  background-color: #D47203;
+  position: absolute;
+}
+
+.pictures {
+  width: 600px;
+  height: 600px;
+  background-color: #A40192;
+  margin-left: 600px;
+  position: absolute;
+  padding-left: 30px;
+}
+
+.pictures img {
+  max-width: 150px;
+}
